@@ -48,26 +48,22 @@ p {
 }
 
 .navigation-list {
+  display: inline-block;
   -ms-flex-pack: distribute;
+  justify-content: flex-end;
   list-style-type: none;
   -webkit-transition: 0.2s opacity;
   -o-transition: 0.2s opacity;
   transition: 0.2s opacity;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
 }
 
 .navigation-list li {
-  display: flex;
+  display: inline-block;
   margin-left: 15px;
 }
 
 .navigation-list__item {
   text-decoration: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
 }
 
 .navigation-list:hover,
