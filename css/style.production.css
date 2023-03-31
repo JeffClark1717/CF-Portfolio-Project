@@ -27,13 +27,13 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
-  background-color: var(--light-blue);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
   justify-content: space-around;
   width: 100%;
+  background-color: var(--purple);
 }
 
 footer {
