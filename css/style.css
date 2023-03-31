@@ -5,7 +5,7 @@
 
 :root {
   --black: #000;
-  --dark-blue: #50529b;
+  --dark-blue: #03065d;
   --light-blue: #b6bbf5;
   --white: #fff;
   --darkgreen: #0f4503;
@@ -29,6 +29,7 @@ header {
   line-height: 1.6;
   background-color: var(--light-blue);
   display: flex;
+  justify-content: space-around;
   width: 100%;
 }
 

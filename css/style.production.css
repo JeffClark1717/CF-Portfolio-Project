@@ -31,6 +31,8 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
   width: 100%;
 }
 
@@ -50,7 +52,7 @@ p {
 .navigation-list {
   display: inline-block;
   -ms-flex-pack: distribute;
-  justify-content: flex-end;
+  justify-content: space-around;
   list-style-type: none;
   -webkit-transition: 0.2s opacity;
   -o-transition: 0.2s opacity;
@@ -95,23 +97,23 @@ p {
 }
 
 #grid > *:nth-child(1) {
-  -ms-grid-row-one: 1;
-  -ms-grid-column-one: 1;
+  -ms-grid-row-first: 1;
+  -ms-grid-column-first: 1;
 }
 
 #grid > *:nth-child(2) {
-  -ms-grid-row-two: 1;
-  -ms-grid-column-two: 3;
+  -ms-grid-row-second: 1;
+  -ms-grid-column-second: 3;
 }
 
 #grid > *:nth-child(3) {
-  -ms-grid-row-three: 1;
-  -ms-grid-column-three: 5;
+  -ms-grid-row-third: 1;
+  -ms-grid-column-third: 5;
 }
 
 #grid > *:nth-child(4) {
-  -ms-grid-row-four: 1;
-  -ms-grid-column-four: 7;
+  -ms-grid-row-fourth: 1;
+  -ms-grid-column-fourth: 7;
 }
 
 @media all and (max-width: 500px) {
@@ -269,14 +271,14 @@ p {
 h1 {
   font-size: 25px;
   font-weight: 700;
-  color: var(--black);
+  color: var(--dark-blue);
   text-align: center;
 }
 
 h2 {
   font-weight: 700;
   text-align: center;
-  color: var(--black);
+  color: var(--dark-blue);
 }
 
 img {
@@ -366,12 +368,12 @@ table {
 
 thead {
   font-size: 20px;
-  color: var(--black);
+  color: var(--green);
 }
 
 tbody {
   font-size: 16px;
-  color: var(--black);
+  color: var(--darkgreen);
 }
 
 .profile__portrait {
