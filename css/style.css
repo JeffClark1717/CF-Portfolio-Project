@@ -5,8 +5,8 @@
 
 :root {
   --black: #000;
-  --dark-blue: #50529b;
-  --light-blue: #656ed0;
+  --dark-blue: #03065d;
+  --light-blue: #b6bbf5;
   --white: #fff;
   --darkgreen: #0f4503;
   --green: #02a92f;
@@ -18,7 +18,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
-  background-color: var(--black);
+  background-color: var(--light-blue);
   padding: 10px;
 }
 
@@ -27,8 +27,9 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
-  background-color: var(--black);
+  background-color: var(--light-blue);
   display: flex;
+  justify-content: space-around;
   width: 100%;
 }
 
@@ -37,7 +38,7 @@ footer {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
-  background-color: var(--black);
+  background-color: var(--light-blue);
 }
 
 p {
@@ -70,7 +71,7 @@ p {
 }
 
 #grid .grid__item {
-  background-color: var(--light-blue);
+  background-color: var(--black);
   color: var(--white);
   text-align: center;
   min-height: 200px;
@@ -190,14 +191,14 @@ p {
 h1 {
   font-size: 25px;
   font-weight: 700;
-  color: var(--dark-blue);
+  color: var(--black);
   text-align: center;
 }
 
 h2 {
   font-weight: 700;
   text-align: center;
-  color: var(--dark-blue);
+  color: var(--black);
 }
 
 img {
@@ -283,12 +284,12 @@ table {
 
 thead {
   font-size: 20px;
-  color: var(--green);
+  color: var(--black);
 }
 
 tbody {
   font-size: 16px;
-  color: var(--darkgreen);
+  color: var(--black);
 }
 
 .profile__portrait {
