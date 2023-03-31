@@ -47,7 +47,9 @@ p {
 }
 
 .navigation-list {
-  display: inline-block;
+  display: inline;
+  float: right;
+  margin-left: 200px;
   justify-content: space-around;
   list-style-type: none;
   transition: 0.2s opacity;

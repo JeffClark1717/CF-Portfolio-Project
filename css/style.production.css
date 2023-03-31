@@ -50,7 +50,9 @@ p {
 }
 
 .navigation-list {
-  display: inline-block;
+  display: inline;
+  float: right;
+  margin-left: 200px;
   -ms-flex-pack: distribute;
   justify-content: space-around;
   list-style-type: none;
